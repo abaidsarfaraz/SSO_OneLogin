@@ -1,0 +1,7 @@
+<div class="button-container">
+  <button class="btn login-btn"  (click)="login()">Login</button>
+  <button class="btn logout-btn" (click)="logout()">Logout</button>
+
+</div>
+  
+  <router-outlet *ngIf="token"></router-outlet>

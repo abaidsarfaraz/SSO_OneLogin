@@ -1,0 +1,23 @@
+<h1 class="welcome-message">
+    Welcome, {{ claims.name }}!
+  </h1>
+  
+  <h3 class="login-status">
+    The login was successful.
+  </h3>
+  
+  <h5 class="user-email">
+    Your Email is: {{ claims.email }}
+  </h5>
+  
+  <p class="claim-issuer">
+    Your claim issuer: {{ claims.iss }}
+  </p>
+  
+
+  <h4>Additional Information:</h4>
+  <ul>
+    <li *ngFor="let claim of claims | keyvalue">
+      <p>{{ claim.key }}:</p> {{ claim.value }}
+    </li>
+  </ul>

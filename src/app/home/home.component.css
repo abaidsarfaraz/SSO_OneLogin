@@ -1,0 +1,47 @@
+.welcome-message {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .login-status {
+    font-size: 1.75em;
+    color: #27ae60;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .user-email {
+    font-size: 1.25em;
+    color: #2980b9;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .claim-issuer {
+    font-size: 1em;
+    color: #8e44ad;
+    text-align: center;
+  }
+  h4 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-top: 1em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-bottom: 0.3em;
+  }
+  
+  p {
+    color: #1b242c;
+    font-weight: 600;
+  }
